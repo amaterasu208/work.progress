@@ -1,0 +1,128 @@
+body{
+	background-color: lightblue;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.roof{
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	border: 100px solid brown;
+	border-right-color: transparent;
+	border-top-color: transparent;
+	border-left-color: transparent;
+}
+
+.house{
+	width: 180px;
+	height: 180px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding-top: 80px;
+}
+
+.window{
+	width: 40px;
+	height: 40px;
+	margin: 0 auto 30px 10px;
+	background-color: lightgray;
+	display: inline-block;
+}
+
+.door{
+	width: 50px;
+	height: 100px;
+	background-color: brown;
+	margin: 0 auto 0 10px;
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body {background: lightblue;}
+.roof {
+		width: 340px;
+		height: 340px;
+		margin: auto;
+		box-sizing: border-box;
+		border: 170px solid;
+		border-top: 150px solid;
+		border-color: transparent transparent brown transparent;}
+.funnel {
+	background: gray;
+	width: 50px;
+	height: 70px;
+	margin-left: 90px;
+	padding-bottom: 40px;
+	border-bottom: 50px solid brown;
+
+}
+.house {background: lightblue;
+		width: 300px;
+		height: 300px;
+		margin: auto;
+		border-top: 130px solid white;
+		border-right: 20px solid white;
+		border-bottom: 50px solid white;
+		border-left: 170px solid white;
+		box-sizing: border-box;
+	}
+.door {
+	width: 100px;
+	height: 160px;
+	background: brown;
+	margin: auto;
+	margin-left: -120px;
+}
+
+*/
