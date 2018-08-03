@@ -1,0 +1,35 @@
+body {
+	background: white;
+}
+
+.blocks {
+	height: 300px;
+	width: 300px;
+	float: left;
+	position: relative;
+}
+img {
+	height: 250px;
+	width: 300px;
+}
+.name {
+	width: 300px;
+	height: 35px;
+	position: relative;
+	background: grey;
+	opacity: 0.5;
+	bottom: 40px;
+	color: white;
+	font-family: Arial;
+	font-size: 30px;
+	box-sizing: border-box;
+	transition: 1s;
+} 
+.blocks:hover .name
+ {
+	opacity: 1;
+	background: lightgrey;
+	bottom: 254px;
+	padding-left: 160px;
+	transition: 1s;
+}
