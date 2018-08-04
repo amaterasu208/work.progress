@@ -5,8 +5,10 @@ body {
 .blocks {
 	height: 300px;
 	width: 300px;
-	float: left;
+	display: inline-block;
+	margin: -2px;
 	position: relative;
+	background: white;
 }
 img {
 	height: 250px;
@@ -25,11 +27,33 @@ img {
 	box-sizing: border-box;
 	transition: 1s;
 } 
-.blocks:hover .name
- {
+.blocks:hover .name {
 	opacity: 1;
 	background: lightgrey;
 	bottom: 254px;
 	padding-left: 160px;
 	transition: 1s;
+}
+.name1 {
+	width: 300px;
+	height: 250px;
+	position: relative;
+	background: grey;
+	opacity: 0.5;
+	bottom: 253px;
+	color: white;
+	font-family: Arial;
+	font-size: 30px;
+	box-sizing: border-box;
+	transition: 1s;
+	overflow: hidden;
+	left: 300px;
+	vertical-align: center;
+	text-align: center;
+	margin: auto;
+} 
+.blocks:hover .name1 {
+	background: grey;
+	transition: 1s;
+	left: 0;
 }
