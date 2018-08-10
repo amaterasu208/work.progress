@@ -3,29 +3,32 @@ body {
 }
 
 .blocks {
-	height: 300px;
+	height: 250px;
 	width: 300px;
 	display: inline-block;
 	margin: -2px;
 	position: relative;
 	background: white;
+	overflow: hidden;
 }
 img {
 	height: 250px;
-	width: 300px;
+	width: 100%;
 }
-.name {
-	width: 300px;
-	height: 35px;
-	position: relative;
-	background: grey;
+.dish {
+	width: 100%;
+	position: absolute;
 	opacity: 0.5;
-	bottom: 40px;
 	color: white;
 	font-family: Arial;
 	font-size: 30px;
 	box-sizing: border-box;
 	transition: 1s;
+	background: grey;
+}
+.name {
+	height: 35px;
+	bottom: 0px;
 } 
 .blocks:hover .name {
 	opacity: 1;
@@ -35,25 +38,33 @@ img {
 	transition: 1s;
 }
 .name1 {
-	width: 300px;
 	height: 250px;
-	position: relative;
-	background: grey;
-	opacity: 0.5;
-	bottom: 253px;
-	color: white;
-	font-family: Arial;
-	font-size: 30px;
-	box-sizing: border-box;
-	transition: 1s;
-	overflow: hidden;
+	bottom: 0px;
 	left: 300px;
-	vertical-align: center;
 	text-align: center;
-	margin: auto;
+	padding-top: 100px;
 } 
 .blocks:hover .name1 {
-	background: grey;
 	transition: 1s;
 	left: 0;
+}
+.name2 {
+	height: 250px;
+	top: 250px;
+	padding-top: 100px;
+	text-align: center;
+} 
+.blocks:hover .name2 {
+	transition: 1s;
+	top: 0;
+}
+.name3 {
+	height: 250px;
+	bottom: 250px;
+	padding-top: 100px;
+	text-align: center;
+} 
+.blocks:hover .name3 {
+	transition: 1s;
+	bottom: 0;
 }
