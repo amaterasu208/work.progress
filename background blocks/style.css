@@ -33,7 +33,7 @@ img {
 .blocks:hover .name {
 	opacity: 1;
 	background: lightgrey;
-	bottom: 254px;
+	bottom: 215px;
 	padding-left: 160px;
 	transition: 1s;
 }
