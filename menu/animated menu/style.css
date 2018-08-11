@@ -1,7 +1,11 @@
-.item {
-	padding: 10px;
+body {
 	color: gray;
 	font-size: 20px;
+	margin: 0;
+	padding: 0;
+}
+.item {
+	padding: 10px;
 	position: relative;
 	width: 300px;
 }
@@ -28,5 +32,25 @@
 }
 .item:hover .point{
 	right: 0;
+	transition: 0.5s;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+li {
+	padding: 10px;
+	padding-left: 60px;
+	list-style-type: none;
+	background-image: url(1.png);
+	background-repeat: no-repeat;
+	background-position: 10px 8px;
+	background-size: 30px 30px;
+	display: block;
+}
+li:hover{
+	padding-left: 10px;
+	background-position: 250px 8px;
+	color: orange;
 	transition: 0.5s;
 }
