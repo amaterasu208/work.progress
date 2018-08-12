@@ -1,56 +1,109 @@
 body {
-	color: gray;
-	font-size: 20px;
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
-.item {
-	padding: 10px;
-	position: relative;
-	width: 300px;
+.conteiner {
+	width: 910px;
+	margin: auto;
+	background: #36BBA9;
+	text-align: center;
+	color: white;
+	font-family: arial;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+h1 {
+	font-weight: 500;
+	font-size: 25px;
+	padding-top: 80px;
+}
+h2 {
+	font-weight: 500;
+	font-size: 20px;
+	padding-bottom: 80px;
+}
+.mounth {
+	display: inline-block;
+	width: 700px;
 }
 .point {
-	background: black;
-	height: 20px;
+	display: inline-block;
+	position: relative;
+}
+.right {
 	width: 20px;
+	height: 20px;
+	box-sizing: border-box;
+	background: #fff;
 	display: inline-block;
-	position: relative;
-	right: 250px;
-	vertical-align: top;
+	margin-bottom: 30px;
+	border: 10px solid transparent;
 }
-.text {
+.left {
+	width: 30px;
+	height: 30px;
+	background: transparent;
 	display: inline-block;
-	width: 250px;
-	position: relative;
-	left: 50px;
+	margin-bottom: 25px;
+	box-sizing: border-box;
+	border: 15px solid #36bba9;
+	position: absolute;
+	bottom: 4px;
 }
-.item:hover .text{
-	left: 0;
-	transition: 0.5s;
-	color: orange;
-	cursor: pointer;
+.right1 {
+	border-right: 10px solid #36BBA9;
 }
-.item:hover .point{
-	right: 0;
-	transition: 0.5s;
+.left1 {
+	border-right: 15px solid transparent;
+	right: 1px;
+}
+.right2 {
+	border-left: 10px solid #36bba9;
+}
+.left2 {
+	border-left: 15px solid transparent;
+	left: 1px;
+}
+table {
+	width: 910px;
+	text-align: center;
+	border-collapse: collapse;
+	color: #6B6B6B;
+	margin: auto;
+}
+th {
+	background: #C4C4C4;
+	padding: 10px;
+	font-weight: 400;
+	font-size: 20px;
+}
+td {
+	background: #EAEAEA;
+	padding: 10px;
 }
 ul {
 	margin: 0;
+	color: #6b6b6b;
 	padding: 0;
+	font-family: times new roman;
+}
+.week {
+	background: #c4c4c4;
+	height: 38px;
+	font-weight: 400;
+	font-size: 20px;
+}
+.day {
+	background: #EAEAEA;
+	height: 185px;
 }
 li {
-	padding: 10px;
-	padding-left: 60px;
 	list-style-type: none;
-	background-image: url(1.png);
-	background-repeat: no-repeat;
-	background-position: 10px 8px;
-	background-size: 30px 30px;
-	display: block;
-}
-li:hover{
-	padding-left: 10px;
-	background-position: 250px 8px;
-	color: orange;
-	transition: 0.5s;
+	float: left;
+	width: 14%;
+	height: 33px;
+	margin: 0;
+	padding: 0;
+	padding-top: 5px;
 }
