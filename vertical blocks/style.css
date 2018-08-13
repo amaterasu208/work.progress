@@ -1,0 +1,46 @@
+body {
+	background: white;
+	margin: 0;
+	padding: 0;
+}
+
+.conteiner {
+	border-left: 2px solid lightgray;
+	margin-left: 20px;
+	padding-left: 5px;
+	margin-right: 20px;
+}
+
+.line {
+	height: 35px;
+	background: lightgrey;
+	width: 100%
+}
+
+.persent {
+	text-align: right;
+	padding-top: 7px;
+	color: white;
+	height: 35px;
+	box-sizing: border-box;
+	padding-right: 5px;
+}
+.html {
+	width: 90%;
+	background: green;
+}
+
+.css {
+	width: 80%;
+	background: blue;
+}
+
+.javascript {
+	width: 65%;
+	background: red;
+}
+
+.php {
+	width: 60%;
+	background: grey;
+}
