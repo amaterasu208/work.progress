@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
+	height: 1500px;
 }
 .button {
 	height: 50px;
@@ -15,19 +16,42 @@ body {
 	height: 300px;
 	width: 250px;
 	position: fixed;
-	left: 90px;
+	left: -290px;
 	top: 40px;
 	background: pink;
-	overflow: scroll;
 	border: 2px solid black;
-	display: none;
+	padding-left: 5px;
+	transition: 1s;
 }
 input {
 	display: none;
 }
 input:checked ~.content {
-	display: block;
+	left: 90px;
+	transition: 1s;
 }
 p {
-	width: 20px;
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	margin: 0;
+}
+.scroll {
+	overflow: scroll;
+	height: 170px;
+	border: 1px solid grey;
+	background: lightblue;
+}
+.small-button {
+	position: absolute;
+	height: 40px;
+	width: 60px;
+	background: lightgreen;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	right: 3px;
+	top: 5px;
+	box-sizing: border-box;
+	padding: 10px;
 }
