@@ -1,0 +1,33 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.button {
+	height: 50px;
+	width: 50px;
+	position: fixed;
+	background: lightgreen;
+	border-radius: 50%;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+.content {
+	height: 300px;
+	width: 250px;
+	position: fixed;
+	left: 90px;
+	top: 40px;
+	background: pink;
+	overflow: scroll;
+	border: 2px solid black;
+	display: none;
+}
+input {
+	display: none;
+}
+input:checked ~.content {
+	display: block;
+}
+p {
+	width: 20px;
+}
