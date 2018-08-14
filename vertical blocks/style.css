@@ -24,38 +24,44 @@ body {
 .persent {
 	text-align: right;
 	padding-top: 7px;
-	color: white;
+	color: transparent;
 	height: 35px;
 	box-sizing: border-box;
 	padding-right: 5px;
 	position: absolute;
 	bottom: 0;
-	display: none;
-}
-.html {
-	width: 90%;
-	background: green;
-}
-
-.css {
-	width: 80%;
-	background: blue;
-}
-
-.javascript {
-	width: 65%;
-	background: red;
-}
-
-.php {
-	width: 60%;
-	background: grey;
+	width: 0;
+	background: transparent;
 }
 
 input {
 	display: none;
 }
 
-input:checked ~.line>.persent {
-	display: block;
+input:checked +.line>.html {
+	width: 90%;
+	transition: 1s;
+	color: white;
+	background: green;
+}
+
+input:checked +.line>.css {
+	transition: 1s;
+	color: white;
+	width: 80%;
+	background: blue;
+}
+
+input:checked +.line>.javascript {
+	transition: 1s;
+	color: white;
+	width: 65%;
+	background: red;
+}
+
+input:checked +.line>.php {
+	transition: 1s;
+	color: white;
+	width: 60%;
+	background: grey;
 }
