@@ -3,7 +3,7 @@ body {
 }
 .conteiner {
 	background: #ee7621;
-	margin: auto;
+	margin: 5px auto;
 	width: 960px;
 }
 .dish {
@@ -30,4 +30,8 @@ img {
 }
 .dish:hover {
 	box-shadow: 5px 5px 5px 5px #8b4513;
+}
+.container-flex {
+	display: flex;
+	flex-wrap: wrap;
 }
