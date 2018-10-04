@@ -2,7 +2,7 @@ body {
 	background: #E6C18C;
 }
 .conteiner {
-	background: #ee7621;
+	background: #C8D037;
 	margin: 5px auto;
 	width: 960px;
 }
@@ -13,7 +13,7 @@ body {
 	box-sizing: border-box;
 	vertical-align: top;
 	min-height: 550px;
-	background: #cd661d;
+	background: #BEBEBE;
 	border-radius: 5px 5px 5px 5px;
 }
 img {
@@ -25,11 +25,11 @@ img {
 	top: 150px;
 	text-align: center;
 	font-size: 20px;
-	color: #8b2500;
+	color: #860A21;
 	padding: 10px;
 }
 .dish:hover {
-	box-shadow: 5px 5px 5px 5px #8b4513;
+	box-shadow: 5px 5px 5px 5px #0C2A4D;
 }
 .container-flex {
 	display: flex;
