@@ -1,0 +1,80 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.container{
+width: 10px;
+height: 10px;
+background-color: green;
+margin: auto;
+margin-top: 100px;
+box-shadow: 50px 70px 0 0px green,
+			60px 80px 0 0px green,
+			50px 80px 0 0px green,
+			-40px 70px 0 0px green,
+			-40px 80px 0 0px green,
+			-50px 80px 0 0px green,
+			35px 75px 0 5px green,
+			-25px 75px 0 5px green,
+			-20px -70px 0 0px red,
+			-30px -60px 0 0px red,
+			-20px -60px 0 0px red,
+			-5px -65px 0 5px red,
+			15px -65px 0 5px red,
+			30px -60px 0 0px red,
+			40px -60px 0 0px red,
+			50px -60px 0 0px red,
+			60px -30px 0 0px orange,
+			60px 20px 0 0px green,
+			-25px -55px 0 5px green,
+			50px -30px 0 0px orange,
+			50px -20px 0 0px green,
+			50px 10px 0 0px green,
+			50px 20px 0 0px green,
+			55px 25px 0 5px orange,
+			55px 45px 0 5px orange,
+			-45px 45px 0 5px orange,
+			-50px 20px 0 0px green,
+			-30px -40px 0 0px orange,
+			0px -50px 0 10px orange,
+			15px -45px 0 5px green,
+			25px -45px 0 5px orange,
+			40px -40px 0 0px orange,
+			50px -40px 0 0px orange,
+			40px -20px 0 0px green,
+			40px 30px 0 0px green,
+			40px 40px 0 0px orange,
+			30px 50px 0 10px red,
+			-30px 40px 0 0px orange,
+			-20px 50px 0 10px red,
+			-45px 35px 0 5px orange,
+			-40px 20px 0 0px green,
+			-40px 10px 0 0px green,
+			-30px -30px 0 0px orange,
+			-10px -30px 0 0px green,
+			30px -30px 0 0px green,
+			35px 15px 0 5px green,
+			30px 30px 0 0px red,
+			20px 30px 0 0px orange,
+			-10px 30px 0 0px orange,
+			-20px 30px 0 0px red,
+			-20px -20px 0 0px orange,
+			-30px -30px 0 10px green,
+			20px -20px 0 0px green,
+			30px -20px 0 0px green,
+			20px 0px 0 0px green,
+			20px 10px 0 0px red,
+			5px 35px 0 15px red,
+			-25px 25px 0 5px green,
+			-25px 5px 0 5px green,
+			-20px -10px 0 0px orange,
+			30px -20px 0 10px orange,
+			5px 5px 0 5px green,
+			0px -20px 0 10px orange,
+			-15px 5px 0 5px red;
+}
