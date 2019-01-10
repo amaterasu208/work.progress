@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+	<nav>
+		<ul>
+			<li>
+				<a href="#privat">Личная информация</a>
+			</li>
+			<li>
+				<a href="#expiriense">Опыт</a>
+			</li>
+			<li>
+				<a href="#about">О себе</a>
+			</li>
+		</ul>
+	</nav>
+	<header><h1>Анкета</h1></header>
+	<main>
+		<div class="icon" id="privat"></div>
+		<h2>Личная информация</h2>
+		<input type="text" placeholder="ФИО">
+		<input type="text" placeholder="Год рождения">
+		<input type="text" placeholder="Место проживания">
+		<input type="text" placeholder="Skype">
+		<input type="text" placeholder="E-mail">
+		<div class="icon" id="expiriense"></div>
+		<h2>Расскажите о своем опыте</h2>
+		<div class="check">
+			<input type="checkbox" id="checkbox1">
+			<label for="checkbox1">БЭМ/OOCSS</label>
+			<input type="checkbox" id="checkbox2">
+			<label for="checkbox2">Stylus/LESS/SASS</label>
+			<input type="checkbox" id="checkbox3">
+			<label for="checkbox3">Работаю с SVG</label>
+			<input type="checkbox" id="checkbox4">
+			<label for="checkbox4">Верстаю семантично</label>
+			<input type="checkbox" id="checkbox5">
+			<label for="checkbox5">ES2015/ES2016</label>
+			<input type="checkbox" id="checkbox6">
+			<label for="checkbox6">Gulp/GRUNT</label>
+			<input type="checkbox" id="checkbox7">
+			<label for="checkbox7">Webpack</label>
+			<input type="checkbox" id="checkbox8">
+			<label for="checkbox8">jQuery</label>
+			<input type="checkbox" id="checkbox9">
+			<label for="checkbox9">Использую Git</label>
+		</div>
+		<div class="icon" id="about"></div>
+		<h2>Расскажите о себе</h2>
+		<div class="text">
+			<p>Напишите несколько предложений, чем привлекла наша вакансия и что вы ожидаете от работы у нас.</p>
+		</div>
+		<textarea cols="30" rows="10" placeholder="Понравилась тем, что..."></textarea>
+		<input type="submit" value="Готово">
+	</main>
+</body>
+</html>
