@@ -1,0 +1,107 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+body {
+	background-color: #F8F0FF;
+}
+.head {
+	margin-top: 100px;
+	position: relative;
+}
+p {
+	font-size: 15px;
+}
+.head p {
+	text-transform: uppercase;
+}
+h1 {
+	padding-top: 20px;
+}
+.head img {
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	top: 15px;
+	opacity: 0.2;
+}
+.head .left {
+	left: 53%;
+}
+.head .right {
+	right: 53%;
+	transform: rotateY(180deg);
+}
+.line {
+	width: 100px;
+	height: 1px;
+	background-color: black;
+	left: 50%;
+	transform: translateX(-50%);
+	position: absolute;
+	top: 90px;
+}
+.flex {
+	display: flex;
+	justify-content: space-around;
+	margin: 1px;
+}
+.flex img {
+	max-width: 220px;
+	height: 150px;
+	object-fit: cover;
+	border: 10px solid white;
+}
+.shadow {
+	box-shadow: 0 0px 100px 10px grey;
+	width: 30px;
+	margin-left: 90px;
+}
+.photo {
+	max-width: 220px;
+	background-color: white;
+	margin-top: 30px;
+	position: relative;
+}
+.photo p {
+	text-transform: uppercase;
+	margin: 20px;
+	color: gray;
+}
+.arrow {
+	width: 26px;
+	height: 26px;
+	border-radius: 20px;
+	background-color: #F8F0FF;
+	position: absolute;
+	bottom: -13px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.arrow:before {
+	content: '';
+	display: block;
+	width: 5px;
+	height: 5px;
+	transform: rotateZ(45deg)translateX(15px);
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.text {
+	color: gray;
+	margin: 30px;
+}
+a {
+	background-color: #FFAA8A;
+	display: block;
+	width: 250px;
+	margin: auto;
+	height: 50px;
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	padding: 18px;
+	margin-bottom: 30px;
+}
