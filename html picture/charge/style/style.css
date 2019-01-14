@@ -36,15 +36,15 @@
 	top: 5px;
 	z-index: 115;
 }
-.battery:nth-child(3) .feel {
+.battery:nth-child(1) .feel {
 	width: 0%;
 }
-.battery:nth-child(4) .feel {
+.battery:nth-child(2) .feel {
 	width: 25%;
 }
-.battery:nth-child(5) .feel {
+.battery:nth-child(3) .feel {
 	width: 50%;
 }
-.battery:nth-child(6) .feel {
+.battery:nth-child(4) .feel {
 	width: 75%;
 }
