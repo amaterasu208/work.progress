@@ -177,3 +177,25 @@ input:checked + .nav-three .button-three span::after {
 input:checked + .nav-three {
 	top: 0px;
 }
+.nav-four {
+	top: 250px;
+	position: absolute;
+	left: -255px;
+}
+
+input:checked + .nav-four {
+	left: 5px;
+}
+.nav-four ul{
+	padding-top: 50px;
+	/*position: absolute;*/
+}
+.nav-four .button{
+	z-index: 100;
+	left: 270px;
+	transition: 1s;
+}
+input:checked + .nav-four .button {
+	left: 10px;
+	transition: 1s;
+}
