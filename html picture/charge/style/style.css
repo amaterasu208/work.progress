@@ -1,0 +1,50 @@
+.battery {
+	margin: 20px auto;
+	border-radius: 5px;
+	width: 60px;
+	height: 25px;
+	border: 5px solid black;
+	padding: 5px;
+	position: relative;
+	z-index: 10;
+}
+.feel {
+	height: 100%;
+	background-color: black;
+	z-index: 5;
+}
+.battery::after {
+	content: '';
+	position: absolute;
+	height: 10px;
+	border: 5px solid black;
+	border-radius: 5px;
+	border-left: 1px solid white;
+	right: -10px;
+	top: 7px;
+	z-index: 100;
+	width: 9px;
+	background-color: white;
+}
+.feel::after {
+	content: '';
+	position: absolute;
+	background-color: white;
+	height: 30px;
+	width: 5px;
+	right: 0px;
+	top: 5px;
+	z-index: 115;
+}
+.battery:nth-child(3) .feel {
+	width: 0%;
+}
+.battery:nth-child(4) .feel {
+	width: 25%;
+}
+.battery:nth-child(5) .feel {
+	width: 50%;
+}
+.battery:nth-child(6) .feel {
+	width: 75%;
+}
