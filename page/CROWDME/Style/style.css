@@ -422,7 +422,7 @@ ol li:hover:before {
 	position: absolute;
 	height: 16px;
 	width: 24px;
-	border: 12px solid /*#c0db65*/ transparent;
+	border: 12px solid transparent;
 	border-width: 8px 12px;
 	border-left-color: #c0db65;
 	box-sizing: border-box;
@@ -467,6 +467,7 @@ ol li:hover:before {
 	z-index: 1;
 	padding: 30px 35px 25px;
 	text-align: center;
+	margin: auto;
 }
 .community .coment:after{
 	content: "";
@@ -510,6 +511,16 @@ footer p{
 	font-size: 13px;
 	color: #848484;
 }
+.form {
+	width: 350px;
+	height: 400px;
+	background-color: green;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+}
 
 @media (max-width: 1440px){
 	.emblem {
@@ -528,11 +539,14 @@ footer p{
 	}
 	ul {
 		position: absolute;
-		display: block;
+		/*display: block;*/
 		background-color: white;
 		z-index: 1;
 		top: 80px;
 		display: none;
+	}
+	.active {
+		display: block;
 	}
 	ul li {
 		border-bottom: 1px solid #484848;
@@ -544,6 +558,7 @@ footer p{
 	.menu {
 		float: left;
 		padding: 25px 20px;
+		cursor: pointer;
 	}
 	.burger {
 		width: 20px;
@@ -551,7 +566,6 @@ footer p{
 		border-radius: 5px;
 		background-color: #848484;
 		margin: 5px;
-
 	}
 	.emblem {
 		margin-left: 50px;
