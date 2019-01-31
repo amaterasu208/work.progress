@@ -1,5 +1,6 @@
 var a=10;
 var b=20;
+var c;
 function exercise(varC, logC) {
 	console.log('Дано:');
 	console.log('a =',a,';');
@@ -12,4 +13,5 @@ exercise(c=a+b, 'c = '+a+'(a) + '+b+'(b) = '+c+';');
 exercise(c=a-b, 'c = '+a+'(a) - '+b+'(b) = '+c+';');
 exercise(c=a*b, 'c = '+a+'(a) * '+b+'(b) = '+c+';');
 exercise(c=a/b, 'c = '+a+'(a) / '+b+'(b) = '+c+';');
-demo.innerHTML = 'Дано:<br>a = 10 ;<br>b = 20 ;<br>c;<br>c = 10(a) + 20(b) = 30;<br>Відповідь: с = 30 ;'
+c=a+b;
+demo.innerHTML = 'Дано:<br>a = ' + a + ';<br>b = ' + b + ';<br>c;<br>c = ' + a + '(a) + ' + b + '(b) = ' + c + ';<br>Відповідь: с = ' + c + ';'
